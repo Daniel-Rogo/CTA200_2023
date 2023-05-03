@@ -1,5 +1,189 @@
+    1  /cita/local/bin/passwd
+    2  netstat -a
+    3  netstat -a / grep -i "listen"
+    4  exit
+    5  ssh lobster
+    6  history
+    7  exit
+    8  whoami
+    9  who
+   10  echo $0
+   11  ssh cosmo2
+   12  exit
+   13  cd /
+   14  ls
+   15  cita
+   16  ls cita
+   17  ls cita adm
+   18  ls lib
+   19  cd /
+   20  cd
+   21  /cita
+   22  cita
+   23  ls cita
+   24  ssh lobster
+   25  exit
+   26  pwd
+   27  ssh lobster
+   28  cd
+   29  cd ..
+   30  ls
+   31  -name
+   32  *auss*
+   33  ssh lobster
+   34  ls
+   35  cd
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd /home/cita200
+   40  whois cta200
+   41  cd ~cta200
+   42  pwd
+   43  find
+   44  man find
+   45  ls
+   46  find -name '*auss*'
+   47  whoami
+   48  cdr
+   49  pwd
+   50  ./repos/gauss2d.git
+   51  open ./repos/gauss2d.git
+   52  read ./repos/gauss2d.git
+   53  ./repos/gauss2d.git/
+   54  ./repos/gauss2d.git
+   55  /mnt/scratch-lustre
+   56  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   57  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+   58  find .  -name '*auss*'
+   59  ./Research/gauss2d/gauss2d.cc
+   60  /mnt/scratch-lustre
+   61  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   62  pwd
+   63  cd
+   64  pwd
+   65  /mnt/scratch-lustre
+   66  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   67  cd
+   68  pwd
+   69  mkdir test
+   70  test
+   71  /test
+   72  ls -la
+   73  cd
+   74  pwd
+   75  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   76  mkdie gauss2d
+   77  mkdir gauss2d
+   78  ls -la
+   79  cd gauss2d
+   80  pwd
+   81  cp -av /home/cta200/Research/gauss2d /home/student10/gauss2d
+   82  ls -la
+   83  pwd
+   84  /home/student10/gauss2d
+   85  pwd
+   86  cd..
+   87  cd ..
+   88  pwd
+   89  ls -la
+   90  ls -la gauss2d
+   91  pwd
+   92  dir
+   93  cd gauss2d/
+   94  dir
+   95  ls -la
+   96  cd gauss2d/
+   97  ls -la
+   98  pwd
+   99  cp -av /home/cta200/Research/gauss2d /home/student10/gauss2d
+  100  cp -av /home/student10/gauss2d/gauss2d /home/student10/gauss2d
+  101  pwd
+  102  cd gauss2d
+  103  cd /home/student10/gauss2d
+  104  ls -la
+  105  dir
+  106  gauss2d
+  107  /gauss2d
+  108  dir gauss2d
+  109  cp -av /home/student10/gauss2d/gauss2d /home/student10/gauss2d
+  110  pwd
+  111  ls
+  112  cd ../
+  113  cp -av /home/student10/gauss2d/gauss2d /home/student10/
+  114  ls
+  115  cd gauss2d/
+  116  ls
+  117  rm -r /home/student10/gauss2d/gauss2d
+  118  ls
+  119  less gauss2d.cc
+  120  module avail
+  121  g++ gauss2d.cc -o gauss2d
+  122  ls -lt
+  123  g++ gauss2d.cc
+  124  ls -lt
+  125  ./gauss2d > data.txt
+  126  ls -la
+  127  module load python/2.7.12
+  128  module avail
+  129  module load python/3.10.2
+  130  ./script.py
+  131  python script.py
+  132  cd
+  133  pwd
+  134  python script.py
+  135  cd /cita/h/home-2/student10/gauss2d
+  136  pwd
+  137  module avail
+  138  head -1 plot.py
+  139  ./script.py
+  140  head -1 plot.py./script.py
+  141  #!/usr/bin/env python .script.py
+  142  #!/usr/bin/env python ./script.py
+  143  ./script.py < data.txt
+  144  #!/usr/bin/env python ./script.py < data.txt
+  145  plot.py
+  146  pwd
+  147  python script.py
+  148  cd python script.py
+  149  cd python
+  150  pwd
+  151  head -1 plot.py
+  152  #!/usr/bin/env python./script.py
+  153  ./script.py < data.txt
+  154  ./script.py
+  155  pwd
+  156  ls -al
+  157  more
+  158  module list
+  159  ./plot.py < data.txt
+  160  ./gauss2d | ./plot.py
+  161  ./gauss2d -help
+  162  pwd
+  163  ls -la
+  164  ./gauss2d.cc
+  165  $USER
+  166  $user
+  167  pwd
+  168  cd /mnt/scratch-lustre/student10/
+  169  pwd
+  170  git clone https://github.com/beniz/eigenmvn
+  171  ls
+  172  cd eigenmvn
+  173  pwd
+  174  module avail gcc
+  175  g++ -I/usr/include -I/usr/include/eigen3 -g -std=c++11 test_eigenmvn.cc
+  176  git clone https://gitlab.com/libeigen/eigen/-/releases/3.4.0
+  177  git clone git@github.com:CITA/CTA200H.git
+  178  head test_eigenmvn.cc
+  179  /usr/include
+  180  cd /usr/include
+  181  pwd
+  182  ls
+  183  -I/usr/include
+  184  dir
   185  ssh cosmo2
-  186  cd /mnt/scratch-lustre/$USER
+  186   cd /mnt/scratch-lustre/$USER
   187  cd src
   188  cd /fs/lustre/scratch/$USER
   189  pwd
@@ -27,42 +211,64 @@
   211  pwd
   212  ls
   213  find . Hello_world
-  214  cd ~murray
-  215  ls
-  216  cp Hello_world.c /fs/lustre/scratch/student10/CTA200_2023/assignment_1
-  217  cp Hello_world.py /fs/lustre/scratch/student10/CTA200_2023/assignment_1
-  218  cd /fs/lustre/scratch/student10/CTA200_2023/assignment_1
-  219  pwd
-  220  ls
-  221  history
-  222  mv Hello_world.py Hello_World_Rogojanski.py
-  223  mv Hello_world.c Hello_World_Rogojanski.c
-  224  pwd
+  214  ls
+  215  cd /fs/lustre/scratch/student10
+  216  pwd
+  217  ls
+  218  cd CTA200_2023/
+  219  ls
+  220  python 'CTA200 Assignment 2.py' 
+  221  vi 'CTA200 Assignment 2.py' 
+  222  pwd
+  223  ls
+  224  mkdir assignment_2
   225  ls
-  226  gcc Hello_World_Rogojanski.c
-  227  pwd
-  228  ls
-  229  mv a.out Hello_world.x
-  230  mv Hello_World_Rogojanski.py Hello_world_Rogojanski.py
-  231  mv Hello_World_Rogojanski.c Hello_world_Rogojanski.c
-  232  ls
-  233  $ ./Hello_world_Rogojanski.c
-  234  $./Hello_world_Rogojanski.c
-  235  ./Hello_world_Rogojanski.c
-  236  ./Hello_world.x
-  237  git
-  238  vi Hello_world_Rogojanski.c
-  239  vi Hello_world_Rogojanski.py
-  240  gcc Hello_world_Rogojanski.c
-  241  ls
-  242  ./a.out
-  243  mv a.out output_c.txt
-  244  Python Hello_world_Rogojanski.py
-  245  module load python
-  246  Python Hello_world_Rogojanski.py
-  247  python Hello_world_Rogojanski.py
-  248  ls
-  249  vi output_python.txt
-  250  ls
-  251  history
-
+  226  mv 'CTA200 Assignment 2.py' assignment_2/assignment.ipynb
+  227  ls
+  228  cd assignment_2
+  229  ls
+  230  git add assignment.ipynb 
+  231  git push
+  232  git commit
+  233  git push
+  234  pwd
+  235  cd ..
+  236  cd assignment_1
+  237  ls
+  238  vi output_c.txt 
+  239  gcc Hello_world_Rogojanski.c
+  240  ls
+  241  vi a.out
+  242  cat a.out
+  243  ./a.out
+  244  ls
+  245  rm a.out
+  246  vi output_c.txt 
+  247  python Hello_world_Rogojanski.py 
+  248  module list
+  249  module avail
+  250  module load python
+  251  python Hello_world_Rogojanski.py 
+  252  ls
+  253  vi output_python.txt 
+  254  ls
+  255  git commit
+  256  git commit -a
+  257  git push
+  258  ls
+  259  history
+  260  ls
+  261  cd ..
+  262  cd assignment_2
+  263  ls
+  264  vi assignment.ipynb 
+  265  git commit assignment.ipynb
+  266  git push
+  267  pwd
+  268  history
+  269  cd ..
+  270  ls
+  271  cd assignment_1
+  272  ls
+  273  history | history.txt
+  274  history > history.txt
