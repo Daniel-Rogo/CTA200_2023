@@ -1,0 +1,68 @@
+  185  ssh cosmo2
+  186  cd /mnt/scratch-lustre/$USER
+  187  cd src
+  188  cd /fs/lustre/scratch/$USER
+  189  pwd
+  190  mkdir CTA200_2023
+  191  ls
+  192  cd CTA200_2023/
+  193  mkdir assignment_1
+  194  ls
+  195  pwd
+  196  vi README.md
+  197  pwd
+  198  ls
+  199  find ~murray Hello_world
+  200  find ~murray Hello
+  201  find ~murray 
+  202  pwd
+  203  cd ~murray
+  204  pwd
+  205  ls
+  206  find . Python
+  207  cd cosmo2
+  208  sshg cosmo2
+  209  ssh cosmo2
+  210  cd ~murray
+  211  pwd
+  212  ls
+  213  find . Hello_world
+  214  cd ~murray
+  215  ls
+  216  cp Hello_world.c /fs/lustre/scratch/student10/CTA200_2023/assignment_1
+  217  cp Hello_world.py /fs/lustre/scratch/student10/CTA200_2023/assignment_1
+  218  cd /fs/lustre/scratch/student10/CTA200_2023/assignment_1
+  219  pwd
+  220  ls
+  221  history
+  222  mv Hello_world.py Hello_World_Rogojanski.py
+  223  mv Hello_world.c Hello_World_Rogojanski.c
+  224  pwd
+  225  ls
+  226  gcc Hello_World_Rogojanski.c
+  227  pwd
+  228  ls
+  229  mv a.out Hello_world.x
+  230  mv Hello_World_Rogojanski.py Hello_world_Rogojanski.py
+  231  mv Hello_World_Rogojanski.c Hello_world_Rogojanski.c
+  232  ls
+  233  $ ./Hello_world_Rogojanski.c
+  234  $./Hello_world_Rogojanski.c
+  235  ./Hello_world_Rogojanski.c
+  236  ./Hello_world.x
+  237  git
+  238  vi Hello_world_Rogojanski.c
+  239  vi Hello_world_Rogojanski.py
+  240  gcc Hello_world_Rogojanski.c
+  241  ls
+  242  ./a.out
+  243  mv a.out output_c.txt
+  244  Python Hello_world_Rogojanski.py
+  245  module load python
+  246  Python Hello_world_Rogojanski.py
+  247  python Hello_world_Rogojanski.py
+  248  ls
+  249  vi output_python.txt
+  250  ls
+  251  history
+
