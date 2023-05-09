@@ -198,13 +198,14 @@ def distance_between_slight_changes():
 
     
 input("type anything to see the first figure")
+print("close this figure to open the next")
 run_all()
 input("type anything to continue to the next figure!")
-plt.close()
+print("close this figure to open the next")
 show_figure_1()
 input("type anything to continue to the next figure!")
-plt.close()
+print("close this figure to open the next")
 show_figure_2()
 input("type anything to continue to the next figure!")
-plt.close()
+print("close this figure to open the next")
 distance_between_slight_changes()
