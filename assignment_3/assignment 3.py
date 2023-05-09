@@ -199,6 +199,7 @@ def distance_between_slight_changes():
     
 input("type anything to see the first figure")
 print("close this figure to open the next")
+print("it may take a sec and the first image will fight for its life, so spam the close button and the click enter. I am not sure why this happens.")
 run_all()
 input("type anything to continue to the next figure!")
 print("close this figure to open the next")
