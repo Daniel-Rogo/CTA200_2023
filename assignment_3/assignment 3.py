@@ -8,7 +8,7 @@ from scipy.integrate import solve_ivp
 
 # ALL THE CODE THAT YOU NEED TO RUN IS AT THE BOTTOM
 
-def z_array() -> Any:
+def z_array():
     """This function takes the complex value array and iterates it using the
     required formula of z_new = z^2 + c. This returns a large array of values
     that represent the growth of the mandelbrot set
@@ -25,7 +25,7 @@ def z_array() -> Any:
     return time_arr, dichromatic
 
 
-def complex_setup() -> Any:
+def complex_setup():
     """This function creates the array of complex values that are required
     for the z_array function. The array is taking x and iy values
     between -2 and 2.
@@ -37,7 +37,7 @@ def complex_setup() -> Any:
     return c_array
 
 
-def time_update(arr) -> Any:
+def time_update(arr):
     """THis is a helper function for the z_array function. It takes in the
     current array that z_array is iterating through and then goes the iterative
     calculation of the mandelbrot formula. It returns the number of iterations
@@ -90,7 +90,7 @@ def slightly_different_lorenz(max_time=60):
     return solution
 
 
-def distance_helper(x1, y1, z1, x2, y2, z2) -> float:
+def distance_helper(x1, y1, z1, x2, y2, z2):
     """This is a helper function that computes the distance between a set of 3
     dimensional coordinates"""
     x_dis = (x2 - x1) ** 2
