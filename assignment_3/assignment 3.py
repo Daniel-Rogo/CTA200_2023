@@ -145,7 +145,7 @@ def show_figure_1(max_time=60):
     for row in range(len(solution_array)):
         for col in range(0, 504):
             solution_array[row][col] = int(solution_array[row][col] * 10)
-    plt.plot(time_array[:355] * 100, solution_array[1][:355])
+    plt.plot(time_array[:300] * 100, solution_array[1][:300])
     plt.xlabel("The change in time (0.01s intervals)")
     plt.ylabel("Numerical solution to the convection equation in the Y-axis")
     plt.title("A reproduction of Lorenz's figure 1")
