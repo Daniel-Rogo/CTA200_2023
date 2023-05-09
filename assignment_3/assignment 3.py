@@ -191,3 +191,12 @@ def distance_between_slight_changes():
     plt.ylabel("logarithmic difference")
     plt.title("Solution differences between W and W'")
     plt.show()
+
+    
+run_all()
+input("type anything to continue to the next figure!")
+show_figure_1()
+input("type anything to continue to the next figure!")
+show_figure_2()
+input("type anything to continue to the next figure!")
+distance_between_slight_changes()
