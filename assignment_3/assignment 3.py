@@ -72,8 +72,10 @@ def lorenz_solution(max_time=60):
     """
     w_naught = (0., 1., 0.)
     sigma, rho, beta = 10., 28, 8. / 3.
+    interval = np.linspace(0, 30, 3000)
     solution = solve_ivp(lorenz, (0, max_time), w_naught,
-                         args=(sigma, rho, beta), dense_output=True)
+                         args=(sigma, rho, beta), dense_output=True,
+                         t_eval=interval)
     return solution
 
 
@@ -84,8 +86,10 @@ def slightly_different_lorenz(max_time=60):
     """
     w_naught = (0.00000000, 1.00000001, 0.00000000)
     sigma, rho, beta = 10., 28, 8. / 3.
+    interval = np.linspace(0, 30, 3000)
     solution = solve_ivp(lorenz, (0, max_time), w_naught,
-                         args=(sigma, rho, beta), dense_output=True)
+                         args=(sigma, rho, beta), dense_output=True,
+                         t_eval=interval)
     return solution
 
 
@@ -182,7 +186,7 @@ def distance_between_slight_changes():
     d_y = different[1]
     d_z = different[2]
     time_array = original.t
-    difference_arr = np.zeros([718])
+    difference_arr = np.zeros([3000])
     for n in range(len(difference_arr)):
         difference_arr[n] = math.log10(distance_helper(o_x[n], o_y[n], o_z[n],
                                                        d_x[n], d_y[n], d_z[n]))
