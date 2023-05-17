@@ -1,11 +1,10 @@
 import math
-from typing import Any
 import numpy as np
-from matplotlib import pyplot as plt, ticker
+from matplotlib import pyplot as plt
 from scipy.integrate import solve_ivp
 
 
-def get_values_in_si(unit: str, val: float) -> Any:
+def get_values_in_si(unit, val):
     if unit == "g":
         return val / 1000.
     elif unit == "cm":
@@ -42,7 +41,7 @@ Tidal_quality_factor = 11.5
 G_const = 6.67e-11
 
 
-def initial_values() -> Any:
+def initial_values():
     """This function initialises the present day values of the earth and moon
     angular momentum, and the earth's spin
     """
@@ -64,7 +63,7 @@ Angular_moment_earth_initial_year = get_values_in_si("1/s", Angular_moment_earth
 Angular_Spin_moment_earth_initial_year = get_values_in_si("1/s", Angular_Spin_moment_earth_initial)
 Angular_moment_lunar_initial_year = get_values_in_si("1/s", Angular_moment_lunar_initial)
 
-def lunar_tidal_torque(axis, unit:str) -> Any:
+def lunar_tidal_torque(axis, unit):
     """This function uses the semi-major axis of the moon to calculate the
     lunar tidal torque"""
     if unit == "year":
