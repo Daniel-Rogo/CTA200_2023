@@ -11,7 +11,7 @@
 %% later version.  The latest version of this license is in
 %%    http://www.latex-project.org/lppl.txt
 %% and version 1.2 or later is part of all distributions of LaTeX
-%% version 1999/12/01 or later.
+%% version 1999/12/01 or later
 %%
 %% $Id: elsarticle-harv.bst 194 2020-11-23 11:29:27Z rishi $
 %%
