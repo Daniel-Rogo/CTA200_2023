@@ -1115,8 +1115,8 @@
 %
 % \DeclareMathSymbol{\Qinv}        {0}{matha}{"4A}
 % \DeclareMathSymbol{\BourbarkiZ}  {0}{matha}{"4F}
-%%%{\catcode`\°=\active \gdef°{^\degree}}
-%%%\mathcode`\°="8000
+%%%{\catcode`\Â°=\active \gdefÂ°{^\degree}}
+%%%\mathcode`\Â°="8000
 %%% pas bon du tout, il faudrait pouvoir
 %%% le melanger avec les '''
 %
